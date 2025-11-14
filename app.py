@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # === Pagina ===
-st.set_page_config(page_title=🔋 Batterij Simulatie, layout=wide)
+st.set_page_config(page_title="🔋 Batterij Simulatie", layout="wide")
 st.title(🔋 Simulatie van batterij- en netverbruik (met reactietijd))
 
 st.markdown(
@@ -191,3 +191,4 @@ if uploaded_file
 
 else
     st.info(⬅️ Upload een CSV-bestand om te starten.)
+
