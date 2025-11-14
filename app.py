@@ -5,7 +5,7 @@ import plotly.express as px
 
 # === Pagina ===
 st.set_page_config(page_title="🔋 Batterij Simulatie", layout="wide")
-st.title(🔋 Simulatie van batterij- en netverbruik (met reactietijd))
+st.title("🔋 Simulatie van batterij- en netverbruik (met reactietijd)")
 
 st.markdown(
 Deze app simuleert het gedrag van een thuisbatterij op basis van kwartierwaarden.
@@ -191,4 +191,5 @@ if uploaded_file
 
 else
     st.info(⬅️ Upload een CSV-bestand om te starten.)
+
 
